@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 7)
     (tracks 208)
     (zones 0)
     (modules 7)
@@ -787,18 +787,6 @@
     )
   )
 
-  (dimension 57.5 (width 0.15) (layer Eco2.User)
-    (gr_text "57,500 mm" (at 162.8 74.25 270) (layer Eco2.User)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (feature1 (pts (xy 156.5 103) (xy 162.086421 103)))
-    (feature2 (pts (xy 156.5 45.5) (xy 162.086421 45.5)))
-    (crossbar (pts (xy 161.5 45.5) (xy 161.5 103)))
-    (arrow1a (pts (xy 161.5 103) (xy 160.913579 101.873496)))
-    (arrow1b (pts (xy 161.5 103) (xy 162.086421 101.873496)))
-    (arrow2a (pts (xy 161.5 45.5) (xy 160.913579 46.626504)))
-    (arrow2b (pts (xy 161.5 45.5) (xy 162.086421 46.626504)))
-  )
   (gr_line (start 105.5 45.5) (end 106 45.5) (layer Edge.Cuts) (width 0.05) (tstamp 6067F3E2))
   (gr_line (start 105.5 103) (end 105.5 45.5) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 106 103) (end 105.5 103) (layer Edge.Cuts) (width 0.05))
